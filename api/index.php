@@ -1,6 +1,8 @@
 <?php
+error_reporting(E_ALL);
 
-require 'settings.php';
+require 'lib/settings.php';
+require 'lib/helpers.php';
 require 'Slim/Slim.php';
 require 'htmlmimemail5/htmlMimeMail5.php';
 require 'modules/module.php';
